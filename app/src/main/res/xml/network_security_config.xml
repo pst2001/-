@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    安全加固：即使将来误加了网络代码，也不允许明文 HTTP 传输。
+    本应用本身没有任何网络请求（Manifest 未声明 INTERNET 权限）。
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

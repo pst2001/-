@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">文字转语音</string>
+
+    <!-- 文本输入区 -->
+    <string name="section_text">朗读文本</string>
+    <string name="text_placeholder">在此输入或粘贴要朗读的内容…</string>
+    <string name="char_count">%1$d 字</string>
+    <string name="action_clear">清空</string>
+
+    <!-- 参数区 -->
+    <string name="section_params">语音参数</string>
+    <string name="label_speech_rate">语速</string>
+    <string name="label_pitch">音调</string>
+    <string name="label_language">语言 / 音色</string>
+    <string name="language_auto">跟随系统</string>
+    <string name="value_rate_format">%1$sx</string>
+
+    <!-- 状态区 -->
+    <string name="section_status">朗读状态</string>
+    <string name="status_initializing">初始化中…</string>
+    <string name="status_initializing_hint">正在加载系统语音引擎，请稍候</string>
+    <string name="status_idle">就绪</string>
+    <string name="status_playing">正在朗读</string>
+    <string name="status_paused">已暂停</string>
+    <string name="status_finished">已完成</string>
+    <string name="progress_chars">已朗读 %1$d / %2$d 字</string>
+    <string name="engine_label">引擎：%1$s</string>
+    <string name="engine_unknown">引擎：系统默认</string>
+
+    <!-- 播放控制 -->
+    <string name="action_play">播放</string>
+    <string name="action_pause">暂停</string>
+    <string name="action_resume">继续</string>
+    <string name="action_stop">停止</string>
+
+    <!-- 语音包引导 -->
+    <string name="action_open_tts_settings">打开语音设置</string>
+    <string name="action_voice_settings">语音设置</string>
+    <string name="voice_missing_title">当前语言缺少语音数据</string>
+    <string name="voice_missing_desc">请到系统「文字转语音」设置中安装该语言的语音包，或切换到其他语言。</string>
+
+    <!-- 提示 -->
+    <string name="hint_text_changed_reset">文本已修改，朗读进度已重置</string>
+    <string name="hint_text_too_long">文本过长，已截断到 %1$d 字</string>
+    <string name="hint_audio_focus_lost">其他应用占用了音频，朗读已停止</string>
+    <string name="hint_param_changed">已从当前位置按新参数重新朗读</string>
+
+    <!-- 错误 -->
+    <string name="error_tts_init_failed">语音引擎初始化失败，请检查系统「文字转语音」设置</string>
+    <string name="error_tts_not_ready">语音引擎尚未就绪，请稍后重试</string>
+    <string name="error_empty_text">请先输入要朗读的文本</string>
+    <string name="error_language_missing">%1$s 缺少语音数据，请先在系统设置中安装</string>
+    <string name="tts_error_audio_focus">无法获取音频焦点，可能正在通话</string>
+    <string name="tts_error_speak_failed">朗读请求失败，请重试</string>
+    <string name="tts_error_synthesis">语音合成失败</string>
+    <string name="tts_error_service">语音引擎服务异常</string>
+    <string name="tts_error_output">音频输出异常</string>
+    <string name="tts_error_invalid_request">朗读请求参数无效</string>
+    <string name="tts_error_network">该语音引擎需要联网，请安装离线语音包</string>
+    <string name="tts_error_engine">语音引擎出错</string>
+</resources>

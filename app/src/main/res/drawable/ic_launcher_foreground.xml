@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 自适应图标前景：喇叭 + 两道声波（纯矢量，无位图资源，体积最小） -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 喇叭主体 -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M27,46h12l15,-12v40l-15,-12h-12z" />
+
+    <!-- 内层声波 -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M57,41a13,13 0 0 1 0,26"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeWidth="5" />
+
+    <!-- 外层声波 -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M65,31a23,23 0 0 1 0,46"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeWidth="5" />
+</vector>

@@ -1,0 +1,19 @@
+# 统一换行符，避免 Windows 检出后 gradlew 在 macOS/Linux 上无法执行
+* text=auto eol=lf
+
+# Gradle wrapper 脚本必须保持 LF
+gradlew text eol=lf
+*.sh text eol=lf
+
+# Windows 批处理保持 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制文件不做换行符转换
+*.jar binary
+*.png binary
+*.jpg binary
+*.apk binary
+*.aab binary
+*.keystore binary
+*.jks binary
